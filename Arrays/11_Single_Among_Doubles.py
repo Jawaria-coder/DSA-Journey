@@ -13,3 +13,17 @@ def findUnique(self, arr):
 
 # Time : O(n)
 # Space: O(n)
+
+#### XOR version
+def findUniqueXOR(self, arr):
+    res = 0
+
+    for x in arr:
+        res ^= x
+
+    return res
+
+# Time : O(n)
+# Space: O(1)
+
+# Only applicable when there is exactly one unique element and all other elements appear exactly twice.
