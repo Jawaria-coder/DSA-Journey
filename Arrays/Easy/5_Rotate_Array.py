@@ -21,7 +21,7 @@ class Solution:
 ### Reversal ALGorithm
 def rotateArr(arr, d):
     n = len(arr)
-
+    
     d %= n
 
     arr.reverse()
