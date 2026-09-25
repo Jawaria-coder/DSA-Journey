@@ -14,5 +14,8 @@ def getKthFromLast(head, k):
 
     if slow is not None:
         return slow.data
-        
+
     return -1
+
+# Time: O(n)
+# Space: O(1)
